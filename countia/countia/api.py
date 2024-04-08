@@ -4,7 +4,7 @@ from ninja.security import HttpBearer
 from ninja_jwt.controller import NinjaJWTDefaultController
 from ninja_jwt.tokens import RefreshToken
 
-from django.contrib.auth.models import User
+from .models import User
 from django.contrib.auth.hashers import make_password
 
 
